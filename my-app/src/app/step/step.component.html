@@ -1,3 +1,8 @@
 <p>
-  step works!
+  step works! <br>
+  2018.11.15. ngFor 이용
 </p>
+<dl *ngFor="let step of stepdsc">
+    <dt class="title">{{ step.step_title }}</dt>
+    <dd class="dsc">{{ step.step_dsc }}</dd>
+</dl>
